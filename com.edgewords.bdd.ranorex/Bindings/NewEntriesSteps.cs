@@ -25,7 +25,7 @@ namespace com.edgewords.bdd.ranorex.Bindings
             LoginForm.FindSingle<Ranorex.Text>(".//text[@accessiblerole='Text']").Click();
             LoginForm.FindSingle<Ranorex.Text>(".//text[@accessiblerole='Text']").PressKeys("password");
             LoginForm.FindSingle<Ranorex.Button>(".//button[@controlname='m_btnOK']").Click();
-            Delay.Milliseconds(800);
+            Delay.Milliseconds(500);
         }
 
         [When(@"i add an entry to the '(.*)' category")]
